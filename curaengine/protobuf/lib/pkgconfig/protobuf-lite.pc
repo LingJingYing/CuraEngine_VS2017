@@ -1,0 +1,11 @@
+prefix=D:/study/source code/install_R
+exec_prefix=D:/study/source code/install_R
+libdir=D:/study/source code/install_R/lib
+includedir=D:/study/source code/install_R/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.4.1
+Libs: -L${libdir} -lprotobuf-lite 
+Cflags: -I${includedir} 
+Conflicts: protobuf

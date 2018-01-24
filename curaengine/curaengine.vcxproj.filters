@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bridge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commandSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConicalOverhang.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ExtruderTrain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FffGcodeWriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FffPolygonGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FffProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gcodeExport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GCodePathConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InsetOrderOptimizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layerPart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LayerPlan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LayerPlanBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MergeInfillLines.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mold.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\multiVolumes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pathOrderOptimizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Preheat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PrimeTower.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkirtBrim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sliceDataStorage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slicer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\support.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SupportInfillPart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timeEstimate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TopSurface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wallOverlap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WallsComputation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Weaver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wireframe2gcode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infill\NoZigZagConnectorProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infill\SpaceFillingTreeFill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infill\SpaghettiInfill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infill\SpaghettiInfillPathGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infill\SubDivCube.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infill\ZigzagConnectorProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pathPlanning\Comb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pathPlanning\GCodePath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pathPlanning\LinePolygonsCrossings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pathPlanning\NozzleTempInsert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pathPlanning\TimeMaterialEstimates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\progress\Progress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\progress\ProgressStageEstimator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings\PathConfigStorage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings\SettingConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings\SettingContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings\SettingRegistry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings\settings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\AABB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\AABB3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\Date.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\gettime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\LinearAlg2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ListPolyIt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\logoutput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\polygon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\PolygonProximityLinker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\PolygonsPointIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\polygonUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ProximityPointLink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\socket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\SpaceFillingTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clipper\clipper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libgen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bridge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\commandSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConicalOverhang.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ExtruderTrain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FanSpeedLayerTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FffGcodeWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FffPolygonGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FffProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FlowTempGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gcodeExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GcodeLayerThreader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GCodePathConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InsetOrderOptimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layerPart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LayerPlan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LayerPlanBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MergeInfillLines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mold.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\multiVolumes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathOrderOptimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Preheat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PrimeTower.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PrintFeature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\raft.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RetractionConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SkirtBrim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sliceDataStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\slicer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpaceFillType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SupportInfillPart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timeEstimate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopSurface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wallOverlap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WallsComputation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\weaveDataStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Weaver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wireframe2gcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infill\ZigzagConnectorProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infill\SubDivCube.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infill\SpaghettiInfillPathGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infill\SpaghettiInfill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infill\SpaceFillingTreeFill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infill\NoZigZagConnectorProcessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathPlanning\Comb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathPlanning\CombPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathPlanning\CombPaths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathPlanning\GCodePath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathPlanning\LinePolygonsCrossings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathPlanning\NozzleTempInsert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathPlanning\TimeMaterialEstimates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\progress\Progress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\progress\ProgressEstimator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\progress\ProgressEstimatorLinear.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\progress\ProgressStageEstimator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\PathConfigStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\SettingConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\SettingContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\SettingsToGV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings\SettingRegistry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\AABB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\AABB3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\Date.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\floatpoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\gettime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\intpoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\LazyInitialization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\linearAlg2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ListPolyIt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\Lock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\logoutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\NoCopy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\optional.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\orderOptimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\polygon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\PolygonProximityLinker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\PolygonsPointIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\polygonUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ProximityPointLink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\socket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\SpaceFillingTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\SparseGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\SparseLineGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\SparsePointGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\SparsePointGridInclusive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\SVG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\SymmetricPair.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libgen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clipper\clipper.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cura.proto">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
